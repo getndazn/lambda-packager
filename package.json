@@ -1,5 +1,5 @@
 {
-  "name": "lambda-packager",
+  "name": "@perform/lambda-packager",
   "version": "0.2.1",
   "description": "Builds dependencies for Node.js AWS Lambda functions",
   "main": "lib/packager.js",
@@ -9,17 +9,17 @@
   "bin": {
     "lambda-packager": "bin/lambda-packager"
   },
-  "repository": "tomdale/lambda-packager",
+  "repository": "getndazn/lambda-packager",
   "keywords": [
     "aws",
     "lambda"
   ],
-  "author": "Tom Dale <tom@tomdale.net>",
+  "author": "Ivan Filho <ivan.filho@massive.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomdale/lambda-packager/issues"
+    "url": "https://github.com/getndazn/lambda-packager/issues"
   },
-  "homepage": "https://github.com/tomdale/lambda-packager#readme",
+  "homepage": "https://github.com/getndazn/lambda-packager#readme",
   "devDependencies": {
     "adm-zip": "^0.4.7",
     "chai": "^3.4.0",
