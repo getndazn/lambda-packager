@@ -3,6 +3,10 @@
 Lambda Packager builds your project's npm packages for use on AWS
 Lambda using AWS Lambda.
 
+### DAZN
+
+This is a forked repository, which implements a critical fix.
+
 ### Motivation
 
 AWS Lambda runs Node.js apps, but you have to provide the `node_modules`
@@ -146,15 +150,3 @@ Work on this project is generously sponsored by [Bustle Labs][bustle-labs].
 
 [thaumaturgy]: https://github.com/node-hocus-pocus/thaumaturgy
 [bustle-labs]: http://www.bustle.com/labs
-
-## Locally
-
-```
-> git clone https://github.com/hmcfletch/lambda-packager
-> cd lambda-packager
-> npm link
-> git checkout fix/add-cloudformation-blueprint
-> npm install
-> lambda-packager deploy
-# use defaults when prompted
-```
